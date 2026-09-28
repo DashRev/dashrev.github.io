@@ -1,0 +1,7 @@
+/* Isolated brand application. The production stylesheets remain byte-identical. */
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Bold.ttf') format('truetype');font-weight:700 900;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevDisplay;src:url('brand/fonts/Archivo-Expanded-ExtraBold.ttf') format('truetype');font-weight:800;font-style:normal;font-display:swap}
+
+:root{--ink:#0E1013;--navy:#0E1013;--blue:#C51018;--muted:#4A4F57;--line:#D5D2CE;--font:DashRevBody,Arial,sans-serif}body{background:#EBE9E5}.brand svg{display:block}.guide-intro h1{font-family:DashRevBody,Arial,sans-serif;font-weight:700}.guide-intro em{color:#0E1013}.vehicle-details,.help-row{background:#F4F2EE}.help-row{border-color:#D5D2CE}.sample-note,.preview-note{color:#4A4F57}.qr-placeholder{border-color:#9AA3AD}

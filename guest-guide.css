@@ -1,0 +1,87 @@
+:root {
+  --ink: #14202b;
+  --navy: #0c1927;
+  --blue: #0876d1;
+  --muted: #5d6872;
+  --line: #d9dfe2;
+  --paper: #ffffff;
+  --font: Arial, Helvetica, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); font-family: var(--font); background: #eaf0f5; }
+a { color: var(--blue); }
+h1, h2, h3, p { margin: 0; }
+a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+
+/* The document is ALWAYS physical Letter size. Mobile changes only the scale
+   of the screen preview, never the page's columns, type size or pagination. */
+.guide-sheet {
+  width: 8.5in;
+  height: 11in;
+  padding: .42in .45in;
+  display: flex;
+  flex-direction: column;
+  gap: 10pt;
+  background: var(--paper);
+  font-size: 10pt;
+  line-height: 1.42;
+}
+.guide-header { display: flex; align-items: center; justify-content: space-between; gap: 18pt; border-bottom: 1.5pt solid var(--blue); padding-bottom: 11pt; }
+.brand { font-size: 19pt; font-weight: 800; letter-spacing: -.55pt; line-height: 1; color: var(--navy); text-decoration: none; }
+.brand span { display: block; margin-top: 5pt; color: var(--blue); font-size: 8pt; letter-spacing: 3.7pt; }
+.guide-header > div { text-align: right; }
+.kicker { display: block; font-size: 8.5pt; color: var(--blue); margin-bottom: 4pt; }
+.guide-header strong { font-size: 11pt; }
+.sample-note { font-size: 8pt; line-height: 1.3; color: #536275; padding: 6pt 8pt; border: .6pt solid var(--line); }
+.guide-intro { display: grid; grid-template-columns: minmax(0,1fr) 176pt; gap: 21pt; align-items: center; }
+.guide-intro h1 { font-size: 25pt; font-weight: 750; letter-spacing: -.9pt; line-height: 1.05; margin-bottom: 9pt; }
+.guide-intro em { font-style: normal; color: var(--blue); }
+.guide-intro p { font-size: 10pt; line-height: 1.4; }
+.guide-intro .park-note { font-size: 9pt; color: var(--blue); font-weight: 700; margin-top: 8pt; }
+.guide-intro img { display: block; width: 176pt; height: 113pt; object-fit: cover; object-position: 50% 39%; border-radius: 2pt; }
+.vehicle-details { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; padding: 9pt 11pt; background: #eef4f8; font-size: 8.5pt; }
+.vehicle-details b { display: block; margin-bottom: 3pt; }
+.vehicle-details .writing-line { display: block; color: var(--muted); border-bottom: .6pt solid #8f9baa; padding-bottom: 3pt; font-size: 8pt; }
+.guide-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+.guide-steps section { border: .6pt solid var(--line); border-top: 1.5pt solid var(--blue); padding: 11pt 12pt 12pt; break-inside: avoid; }
+.step { display: block; font-size: 8.5pt; color: var(--blue); font-weight: 700; margin-bottom: 7pt; }
+h2 { font-size: 12pt; line-height: 1.2; letter-spacing: -.2pt; margin-bottom: 7pt; }
+.guide-steps p { font-size: 9.5pt; line-height: 1.4; margin-top: 7pt; }
+.help-row { display: grid; grid-template-columns: 1fr 109pt; gap: 20pt; border: .6pt solid #b6cbdc; background: #f2f7fa; padding: 11pt 13pt; break-inside: avoid; }
+.help-row p { font-size: 9pt; line-height: 1.4; }
+.help-row h3 { font-size: 10pt; margin-top: 9pt; margin-bottom: 4pt; }
+.tutorial { text-align: center; align-self: center; }
+.qr-placeholder { border: .8pt dashed #6e8aa0; padding: 9pt 5pt; font-size: 10pt; font-weight: 700; line-height: 1.5; }
+.qr-placeholder span { display: block; font-size: 7pt; font-weight: 400; color: var(--muted); margin-top: 3pt; }
+.tutorial > p { font-size: 7.5pt; color: var(--muted); margin-top: 5pt; }
+.guide-footer { display: flex; justify-content: space-between; gap: 12pt; border-top: .6pt solid var(--line); padding-top: 7pt; margin-top: auto; font-size: 7pt; line-height: 1.3; color: var(--muted); }
+
+/* UI controls are not part of the printed document. */
+@media screen {
+  .preview-tools { width: min(816px, calc(100% - 24px)); margin: 20px auto 12px; display: flex; gap: 10px 18px; align-items: center; flex-wrap: wrap; font-size: 14px; }
+  .preview-tools a { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; }
+  .back-link { margin-right: auto; }
+  .pdf-button { background: var(--blue); color: white; border-radius: 4px; padding: 12px 18px; font-weight: 700; text-decoration: none; }
+  .save-link { padding: 10px 8px; }
+  .preview-note { width: min(816px, calc(100% - 24px)); margin: 0 auto 18px; font-size: 13px; line-height: 1.6; color: #4b5e70; }
+  .preview-note strong { color: var(--navy); }
+  .guide-viewport { position: relative; width: min(816px, calc(100% - 24px)); margin: 0 auto; }
+  .guide-scaled .guide-viewport { height: calc(1056px * var(--page-scale,1)); }
+  .guide-scaled .guide-sheet { position: absolute; top: 0; left: 0; transform: scale(var(--page-scale,1)); transform-origin: top left; }
+  .guide-sheet { box-shadow: 0 8px 32px #1a30451a; }
+  html:not(.guide-scaled) .guide-viewport { overflow-x: auto; }
+  .closing-note { margin-block: 18px 32px; }
+}
+@media screen and (max-width: 500px) {
+  .preview-tools { display: grid; grid-template-columns: 1fr auto; }
+  .back-link { grid-column: 1 / -1; justify-content: start !important; }
+  .preview-note { font-size: 12px; }
+}
+@page { size: Letter portrait; margin: 0; }
+@media print {
+  html, body { margin: 0; padding: 0; width: 8.5in; background: white; }
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .preview-tools, .preview-note, noscript { display: none; }
+  .guide-viewport { display: block; width: 8.5in; height: auto; margin: 0; padding: 0; overflow: visible; }
+  .guide-sheet { position: static; width: 8.5in; height: 11in; margin: 0; transform: none; box-shadow: none; break-inside: avoid; }
+}
