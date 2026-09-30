@@ -28,9 +28,7 @@
   const span = (r) => ranges(r).map(rangeLabel).join(', ');
   const inYear = (r, y) => yearList(r).includes(+y);
   const rows = data.makes.flatMap((m) => m.groups.flatMap((g) => g.models.map((r) => ({ ...r, make: m.name, makeId: m.id, group: g.name }))));
-  const exceptions = (data.exceptions || []).map((r) => ({ ...r, makeId: data.makes.find((m) => m.name === r.make)?.id }));
   const [Y0, Y1] = data.years;
-  const phone = window.matchMedia('(max-width: 760px)');
 
   let view = 'cards', make = 'all', year = '', query = '';
 
@@ -116,23 +114,7 @@
   const table = (list) => `<table class="fit-table"><thead><tr><th scope="col"><span class="visually-hidden">Picture</span></th><th scope="col">Model</th><th scope="col">Chassis</th><th scope="col">Years</th><th scope="col">Body</th></tr></thead><tbody>${
     list.map((r) => `<tr><td><img src="${img(r)}" alt="" loading="lazy"></td><th scope="row">${esc(r.make)} ${esc(r.model)}</th><td><span class="fit-chip">${esc(r.chassis)}</span></td><td class="num">${span(r)}</td><td>${esc(r.variants)}</td></tr>`).join('')}</tbody></table>`;
 
-  const matchingExceptions = () => exceptions.filter((r) =>
-    (make === 'all' || r.makeId === make) && (!year || inYear(r, year)) &&
-    (!query || `${r.make} ${r.model} ${r.chassis || ''}`.toLowerCase().includes(query)));
-
-  const verificationNotes = (held) => {
-    const target = $('[data-fit-exceptions]');
-    if (!target) return;
-    target.hidden = !held.length;
-    target.innerHTML = held.length ? `<details class="fit-verification"${year && !phone.matches ? ' open' : ''}>
-      <summary>Some supplier-listed years need an extra check</summary>
-      <p>These years are not confirmed generation matches. Send the VIN and a dashboard photo before quoting an adapter.</p>
-      <ul>${held.map((r) => `<li><strong>${esc(r.make)} ${esc(r.model)} · ${span(r)}</strong><br>${esc(r.reason)}</li>`).join('')}</ul>
-      <a href="sms:+16199537761">Text a VIN or dashboard photo</a>
-      </details>` : '';
-  };
-
-  const verdict = (list, held) => {
+  const verdict = (list) => {
     const v = $('[data-fit-verdict]');
     if (!v) return;
     if (!year && !query) { v.hidden = true; return; }
@@ -141,10 +123,7 @@
     if (list.length) {
       const names = list.slice(0, 3).map((r) => `${r.make} ${r.model} ${r.chassis} (${span(r)})`).join(', ');
       v.className = 'fit-verdict is-yes';
-      v.innerHTML = `<strong>${list.length === 1 ? 'On the list' : `${list.length} matches`}</strong> for ${esc(label)}: ${esc(names)}${list.length > 3 ? '…' : ''}. Confirm the screen and head unit before quoting.${year && held.length ? ' Other supplier-listed entries need the extra checks below.' : ''}`;
-    } else if (held.length) {
-      v.className = 'fit-verdict is-ask';
-      v.innerHTML = `<strong>Verify this year and head unit</strong> for ${esc(label)}. The supplier lists it, but it is not a confirmed generation match here. <a href="sms:+16199537761">Text us the VIN or a dashboard photo</a>.`;
+      v.innerHTML = `<strong>${list.length === 1 ? 'On the list' : `${list.length} matches`}</strong> for ${esc(label)}: ${esc(names)}${list.length > 3 ? '…' : ''}. Confirm the screen and head unit before quoting.`;
     } else {
       v.className = 'fit-verdict is-ask';
       v.innerHTML = `<strong>Not on this list</strong> for ${esc(label)}. That doesn’t rule it out: <a href="sms:+16199537761">text us the VIN or a dashboard photo</a>.`;
@@ -153,12 +132,10 @@
 
   const render = () => {
     const list = rows.filter(matches);
-    const held = matchingExceptions();
     const tl = rows.filter((r) => (make === 'all' || r.makeId === make) && (!query || `${r.model} ${r.chassis} ${r.variants} ${r.make}`.toLowerCase().includes(query)));
     root.innerHTML = (view === 'timeline' ? tl.length : list.length) ? (view === 'cards' ? cards(list) : view === 'timeline' ? timeline(tl) : table(list))
       : '<p class="fit-empty">Nothing in this list matches. That doesn’t mean we can’t fit it. Text us the model and a dashboard photo.</p>';
-    verificationNotes(held);
-    verdict(list, held);
+    verdict(list);
     document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
     document.querySelectorAll('[data-make]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.make === make)));
     // Shared dealer links must preserve the actual lookup, not just the page URL.

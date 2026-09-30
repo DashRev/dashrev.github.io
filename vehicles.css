@@ -31,15 +31,7 @@
 .fit-verdict.is-ask{border-left:4px solid var(--rf-red)}
 .fit-verdict strong{color:#F4F2EE}
 .fit-verdict a{color:#F4F2EE;text-decoration-color:var(--rf-red)}
-.fit-verification{margin:0 0 28px;padding:16px 20px;border-left:3px solid var(--rf-red);background:var(--rf-graphite-3);font-size:15px;line-height:1.6;color:#C6C9CE}
-.fit-verification summary{cursor:pointer;font-weight:700;color:#F4F2EE}
-.fit-verification p{max-width:72ch;margin:12px 0;color:inherit}
-.fit-verification ul{padding-left:20px;margin:12px 0 16px}
-.fit-verification li{max-width:78ch;margin:12px 0}
-.fit-verification strong,.fit-verification a{color:#F4F2EE}
-.fit-verification a{text-decoration-color:var(--rf-red)}
-.fit-tools :is(button,input,select):focus-visible,.fit-verification :is(summary,a):focus-visible,.fit-share button:focus-visible{outline:2px solid #F4F2EE;outline-offset:3px}
-.fit-make+.fit-make{margin-top:64px}
+.fit-tools :is(button,input,select):focus-visible,.fit-make+.fit-make{margin-top:64px}
 .fit-make-head{display:flex;align-items:center;gap:14px;padding-bottom:16px;border-bottom:1px solid var(--rf-dark-line)}
 .fit-make-head img{width:40px;height:40px;object-fit:contain}
 .fit-make-head h2{font-size:32px!important;letter-spacing:-1px!important;color:#F4F2EE;margin:0}
