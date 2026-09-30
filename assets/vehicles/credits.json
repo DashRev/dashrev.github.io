@@ -1,0 +1,1645 @@
+{
+  "method": "AI studio renders generated locally with FLUX.1 Kontext; photographs used as identity references, not final photo cut-outs.",
+  "modifications": "AI studio reconstruction; neutral white paint and soft light; plate and distracting-mark removal; background removal and size normalization.",
+  "attribution_note": "Reference authors and licenses are retained below. Where a reference adaptation requires share-alike, the corresponding image is available under that reference license. No affiliation or endorsement is implied.",
+  "images": [
+    {
+      "asset": "bmw-f30",
+      "make": "BMW",
+      "label": "BMW 3 Series F30",
+      "references": [
+        {
+          "title": "File:BMW 320i Luxury (F30) front.JPG",
+          "artist": "Tokumeigakarinoaoshima",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_320i_Luxury_(F30)_front.JPG",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f10",
+      "make": "BMW",
+      "label": "BMW 5 Series F10",
+      "references": [
+        {
+          "title": "File:BMW 5er (F10) front-1 20100405.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_5er_(F10)_front-1_20100405.jpg",
+          "license": "Attribution",
+          "license_url": "https://commons.wikimedia.org/wiki/File:BMW_5er_(F10)_front-1_20100405.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f32",
+      "make": "BMW",
+      "label": "BMW 4 Series F32",
+      "references": [
+        {
+          "title": "File:BMW 420i Coupé Luxury (F32) front.JPG",
+          "artist": "Tokumeigakarinoaoshima",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_420i_Coup%C3%A9_Luxury_(F32)_front.JPG",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f06",
+      "make": "BMW",
+      "label": "BMW 6 Series F06",
+      "references": [
+        {
+          "title": "File:BMW 640i F06 Gran Coupé Glacier Silver Metallic 01.jpg",
+          "artist": "Ethan Llamas",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_640i_F06_Gran_Coup%C3%A9_Glacier_Silver_Metallic_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f48",
+      "make": "BMW",
+      "label": "BMW X1 F48",
+      "references": [
+        {
+          "title": "File:Front Driver side.jpg",
+          "artist": "Motores502",
+          "source": "https://commons.wikimedia.org/wiki/File:Front_Driver_side.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f25",
+      "make": "BMW",
+      "label": "BMW X3 F25",
+      "references": [
+        {
+          "title": "File:BMW X3 M-Sport (F25); facelift (front) (2).jpg",
+          "artist": "DariuszSankowski",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_X3_M-Sport_(F25);_facelift_(front)_(2).jpg",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f26",
+      "make": "BMW",
+      "label": "BMW X4 F26",
+      "references": [
+        {
+          "title": "File:BMW X4 (F26), front.jpg",
+          "artist": "Kārlis Dambrāns",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_X4_(F26),_front.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-e70",
+      "make": "BMW",
+      "label": "BMW X5 E70",
+      "references": [
+        {
+          "title": "File:BMW X5 (E70) China (9).jpg",
+          "artist": "Dinkun Chen",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_X5_(E70)_China_(9).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f15",
+      "make": "BMW",
+      "label": "BMW X5 F15",
+      "references": [
+        {
+          "title": "File:2016 BMW X5 xDrive35i (US) front 3.9.18.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2016_BMW_X5_xDrive35i_(US)_front_3.9.18.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-e71",
+      "make": "BMW",
+      "label": "BMW X6 E71",
+      "references": [
+        {
+          "title": "File:BMW E71 X6 Black Sapphire Metallic (1).jpg",
+          "artist": "Damian B Oh",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_E71_X6_Black_Sapphire_Metallic_(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-f16",
+      "make": "BMW",
+      "label": "BMW X6 F16",
+      "references": [
+        {
+          "title": "File:2018 BMW X6 xDrive30d M Sport Automatic 3.0 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_BMW_X6_xDrive30d_M_Sport_Automatic_3.0_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bmw-i12",
+      "make": "BMW",
+      "label": "BMW i8 I12",
+      "references": [
+        {
+          "title": "File:BMW i8 Front (left).jpg",
+          "artist": "根川孝太郎 (Kotaro Negawa)",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_i8_Front_(left).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-a-class-v177",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz A-Class V177",
+      "references": [
+        {
+          "title": "File:2019 Mercedes-Benz A220, front 8.22.19.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2019_Mercedes-Benz_A220,_front_8.22.19.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-amg-gt-c190",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz AMG GT C190",
+      "references": [
+        {
+          "title": "File:Festival automobile international 2015 - Mercedes AMG GT - 003.jpg",
+          "artist": "Thesupermat",
+          "source": "https://commons.wikimedia.org/wiki/File:Festival_automobile_international_2015_-_Mercedes_AMG_GT_-_003.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-amg-gtc-c190",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz AMG GTC C190",
+      "references": [
+        {
+          "title": "File:2018 Mercedes AMG GT C Edition 50 Auto.jpg",
+          "artist": "Calreyn88",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mercedes_AMG_GT_C_Edition_50_Auto.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-amg-gtr-c190",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz AMG GTR C190",
+      "references": [
+        {
+          "title": "File:2018 Mercedes-Benz AMG GT-R, designo matte Selenite Grey Magno, front right.jpg",
+          "artist": "Mr.choppers",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mercedes-Benz_AMG_GT-R,_designo_matte_Selenite_Grey_Magno,_front_right.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-amg-gts-c190",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz AMG GTS C190",
+      "references": [
+        {
+          "title": "File:2016 Mercedes-AMG GT-S Edition 1 in Selenite Gray, front left.jpg",
+          "artist": "Mr.choppers",
+          "source": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-AMG_GT-S_Edition_1_in_Selenite_Gray,_front_left.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-b-class-w246",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz B-Class W246",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz B-Class (front quarter).jpg",
+          "artist": "Overlaet",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_B-Class_(front_quarter).jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-c-class-w204",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz C-Class W204",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz C 220 CDI BlueEFFICIENCY Avantgarde (W 204, Facelift) – Frontansicht, 17. April 2011, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C_220_CDI_BlueEFFICIENCY_Avantgarde_(W_204,_Facelift)_%E2%80%93_Frontansicht,_17._April_2011,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C_220_CDI_BlueEFFICIENCY_Avantgarde_(W_204,_Facelift)_%E2%80%93_Frontansicht,_17._April_2011,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-c-class-w205",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz C-Class W205",
+      "references": [
+        {
+          "title": "File:2016 Mercedes-Benz C-Class C220d SE Executive (W205) - 2.2 (170PS) diesel automatic - 2025-05-05, front right.jpg",
+          "artist": "DieselFordMondeo",
+          "source": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_C-Class_C220d_SE_Executive_(W205)_-_2.2_(170PS)_diesel_automatic_-_2025-05-05,_front_right.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-cla-c117",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz CLA C117",
+      "references": [
+        {
+          "title": "File:2015 Mercedes-Benz CLA 250 4MATIC, Mountain Grey Met. - front left.jpg",
+          "artist": "Mr.choppers",
+          "source": "https://commons.wikimedia.org/wiki/File:2015_Mercedes-Benz_CLA_250_4MATIC,_Mountain_Grey_Met._-_front_left.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-cla-c118",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz CLA C118",
+      "references": [
+        {
+          "title": "File:2020 Mercedes-Benz CLA 250e AMG Line Premium 1.3 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Mercedes-Benz_CLA_250e_AMG_Line_Premium_1.3_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-cls-c218",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz CLS C218",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz CLS 350 BlueEFFICIENCY Edition 1 (C 218) – Frontansicht (2), 16. April 2011, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_CLS_350_BlueEFFICIENCY_Edition_1_(C_218)_%E2%80%93_Frontansicht_(2),_16._April_2011,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_CLS_350_BlueEFFICIENCY_Edition_1_(C_218)_%E2%80%93_Frontansicht_(2),_16._April_2011,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-cls-c257",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz CLS C257",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz CLS (front).jpg",
+          "artist": "Jason Lawrence",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_CLS_(front).jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-convertible-a217",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz Convertible A217",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz S 500 Cabriolet bei der IAA 2015 in Frankfurt am Main.JPG",
+          "artist": "NearEMPTiness",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S_500_Cabriolet_bei_der_IAA_2015_in_Frankfurt_am_Main.JPG",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-e-class-w212",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz E-Class W212",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz E 250 Avantgarde Sport-Paket AMG (W 212, Facelift) – Frontansicht, 21. September 2013, Ratingen.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E_250_Avantgarde_Sport-Paket_AMG_(W_212,_Facelift)_%E2%80%93_Frontansicht,_21._September_2013,_Ratingen.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E_250_Avantgarde_Sport-Paket_AMG_(W_212,_Facelift)_%E2%80%93_Frontansicht,_21._September_2013,_Ratingen.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-e-class-w213",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz E-Class W213",
+      "references": [
+        {
+          "title": "File:2021 Mercedes-Benz E 200 front.jpg",
+          "artist": "LuvsMG481",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Mercedes-Benz_E_200_front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-g-class-w463",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz G-Class W463",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz G 500 Sport-Paket (W 463, 3. Facelift) – Frontansicht, 7. August 2012, Stuttgart.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G_500_Sport-Paket_(W_463,_3._Facelift)_%E2%80%93_Frontansicht,_7._August_2012,_Stuttgart.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G_500_Sport-Paket_(W_463,_3._Facelift)_%E2%80%93_Frontansicht,_7._August_2012,_Stuttgart.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gl-x166",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GL X166",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz GL 500 4MATIC (X 166) – Frontansicht, 13. Juni 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GL_500_4MATIC_(X_166)_%E2%80%93_Frontansicht,_13._Juni_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GL_500_4MATIC_(X_166)_%E2%80%93_Frontansicht,_13._Juni_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gla-x156",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLA X156",
+      "references": [
+        {
+          "title": "File:2015 Mercedes-Benz GLA 200 AMG Line CDi 4MATIC 2.1 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2015_Mercedes-Benz_GLA_200_AMG_Line_CDi_4MATIC_2.1_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gla-h247",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLA H247",
+      "references": [
+        {
+          "title": "File:Mercedes-AMG GLA 45 S 4MATIC+ (H247) 1X7A5827.jpg",
+          "artist": "Alexander Migl",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLA_45_S_4MATIC%2B_(H247)_1X7A5827.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-glb-x247",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLB X247",
+      "references": [
+        {
+          "title": "File:Mercedes-AMG GLB 35 4MATIC (X247) front.jpg",
+          "artist": "Tokumeigakarinoaoshima",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLB_35_4MATIC_(X247)_front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-glc-x253",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLC X253",
+      "references": [
+        {
+          "title": "File:2018 Mercedes-Benz GLC 250d 4MATIC AMG Line Premium Automatic 2.1 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mercedes-Benz_GLC_250d_4MATIC_AMG_Line_Premium_Automatic_2.1_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gle-w166",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLE W166",
+      "references": [
+        {
+          "title": "File:2018 Mercedes-Benz GLE 250d 4MATIC 2.1 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mercedes-Benz_GLE_250d_4MATIC_2.1_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gle-v167",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLE V167",
+      "references": [
+        {
+          "title": "File:2020 Mercedes-Benz GLE 350 4Matic front 6.16.19.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Mercedes-Benz_GLE_350_4Matic_front_6.16.19.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-glk-x204",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLK X204",
+      "references": [
+        {
+          "title": "File:Facelift Mercedes-Benz GLK 250 (X204) 4Matic, front view.jpg",
+          "artist": "EurovisionNim",
+          "source": "https://commons.wikimedia.org/wiki/File:Facelift_Mercedes-Benz_GLK_250_(X204)_4Matic,_front_view.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gls-x166",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLS X166",
+      "references": [
+        {
+          "title": "File:MERCEDES-BENZ GLS-CLASS (X166) China (18).jpg",
+          "artist": "Dinkun Chen",
+          "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_GLS-CLASS_(X166)_China_(18).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-gls-x167",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz GLS X167",
+      "references": [
+        {
+          "title": "File:2020 Mercedes-Benz GLS 450, front 1.20.20.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Mercedes-Benz_GLS_450,_front_1.20.20.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-ml-w166",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz ML W166",
+      "references": [
+        {
+          "title": "File:White MB ML 63 AMG (W166) fl.jpg",
+          "artist": "Matti Blume (MB-one)",
+          "source": "https://commons.wikimedia.org/wiki/File:White_MB_ML_63_AMG_(W166)_fl.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-s-class-w222",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz S-Class W222",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz S 500 (W 222) – Frontansicht, 6. April 2014, Neuss.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S_500_(W_222)_%E2%80%93_Frontansicht,_6._April_2014,_Neuss.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S_500_(W_222)_%E2%80%93_Frontansicht,_6._April_2014,_Neuss.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-s-class-coupe-c217",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz S-Class Coupe C217",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz S63 AMG 4MATIC Coupé (C217) front.JPG",
+          "artist": "Tokumeigakarinoaoshima",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S63_AMG_4MATIC_Coup%C3%A9_(C217)_front.JPG",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-sl-r231",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz SL R231",
+      "references": [
+        {
+          "title": "File:Mercedes-Benz SL 350 AMG Line (R 231) – Frontansicht, 16. März 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SL_350_AMG_Line_(R_231)_%E2%80%93_Frontansicht,_16._M%C3%A4rz_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SL_350_AMG_Line_(R_231)_%E2%80%93_Frontansicht,_16._M%C3%A4rz_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mercedes-benz-slk-r172",
+      "make": "Mercedes-Benz",
+      "label": "Mercedes-Benz SLK R172",
+      "references": [
+        {
+          "title": "File:2014 Mercedes-Benz SLK250 AMG Sport CDi Blue 2.1.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_Mercedes-Benz_SLK250_AMG_Sport_CDi_Blue_2.1.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a3-8v",
+      "make": "Audi",
+      "label": "Audi A3 8V",
+      "references": [
+        {
+          "title": "File:Audi A3 Limousine 2.0 TDI Ambiente S-line (8V) – Frontansicht, 1. März 2014, Velbert.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A3_Limousine_2.0_TDI_Ambiente_S-line_(8V)_%E2%80%93_Frontansicht,_1._M%C3%A4rz_2014,_Velbert.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_A3_Limousine_2.0_TDI_Ambiente_S-line_(8V)_%E2%80%93_Frontansicht,_1._M%C3%A4rz_2014,_Velbert.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a4-b8",
+      "make": "Audi",
+      "label": "Audi A4 B8",
+      "references": [
+        {
+          "title": "File:Audi A4 1.8T S-Line 2013 (12075605006).jpg",
+          "artist": "order_242 from Chile",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A4_1.8T_S-Line_2013_(12075605006).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a5-8t",
+      "make": "Audi",
+      "label": "Audi A5 8T",
+      "references": [
+        {
+          "title": "File:Audi A5 Coupé quattro DTM Champion (Facelift) – Frontansicht, 30. August 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A5_Coup%C3%A9_quattro_DTM_Champion_(Facelift)_%E2%80%93_Frontansicht,_30._August_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_A5_Coup%C3%A9_quattro_DTM_Champion_(Facelift)_%E2%80%93_Frontansicht,_30._August_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a6-c7",
+      "make": "Audi",
+      "label": "Audi A6 C7",
+      "references": [
+        {
+          "title": "File:Audi A6 2.0 TDI (C7) – Frontansicht, 1. November 2012, Velbert.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A6_2.0_TDI_(C7)_%E2%80%93_Frontansicht,_1._November_2012,_Velbert.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_A6_2.0_TDI_(C7)_%E2%80%93_Frontansicht,_1._November_2012,_Velbert.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a7-4g",
+      "make": "Audi",
+      "label": "Audi A7 4G",
+      "references": [
+        {
+          "title": "File:Audi A7 3.0 TDI quattro S line Facelift.JPG",
+          "artist": "Thomas doerfer",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A7_3.0_TDI_quattro_S_line_Facelift.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-a8-d4",
+      "make": "Audi",
+      "label": "Audi A8 D4",
+      "references": [
+        {
+          "title": "File:Audi A8 III 4.2 TDI quattro front 20100416.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_A8_III_4.2_TDI_quattro_front_20100416.jpg",
+          "license": "Attribution",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_A8_III_4.2_TDI_quattro_front_20100416.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "audi-q3-8u",
+      "make": "Audi",
+      "label": "Audi Q3 8U",
+      "references": [
+        {
+          "title": "File:2018 Audi Q3 S Line Black Edition TFSI - 1395cc 1.4 (150PS) Petrol - Misano Red - 04-2024, Front.jpg",
+          "artist": "Harvey Bold",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Audi_Q3_S_Line_Black_Edition_TFSI_-_1395cc_1.4_(150PS)_Petrol_-_Misano_Red_-_04-2024,_Front.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-q5-8r",
+      "make": "Audi",
+      "label": "Audi Q5 8R",
+      "references": [
+        {
+          "title": "File:2014 Audi Q5 SE TDi Quattro Automatic 2.0 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_Audi_Q5_SE_TDi_Quattro_Automatic_2.0_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-q7-4l",
+      "make": "Audi",
+      "label": "Audi Q7 4L",
+      "references": [
+        {
+          "title": "File:Audi Q7 (Facelift) front 20110115.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_Q7_(Facelift)_front_20110115.jpg",
+          "license": "Attribution",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_Q7_(Facelift)_front_20110115.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "audi-rs5-8t",
+      "make": "Audi",
+      "label": "Audi RS5 8T",
+      "references": [
+        {
+          "title": "File:Audi RS5 (ABA-8TCFSF) front.JPG",
+          "artist": "Tokumeigakarinoaoshima",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_RS5_(ABA-8TCFSF)_front.JPG",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-rs7-4g",
+      "make": "Audi",
+      "label": "Audi RS7 4G",
+      "references": [
+        {
+          "title": "File:2014 Audi RS7.jpg",
+          "artist": "Sarah Larson from Ann Arbor, MI, USA",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_Audi_RS7.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-s3-8v",
+      "make": "Audi",
+      "label": "Audi S3 8V",
+      "references": [
+        {
+          "title": "File:2017 Audi S3 (8V MY17) quattro sedan (2018-10-01) 01.jpg",
+          "artist": "EurovisionNim",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Audi_S3_(8V_MY17)_quattro_sedan_(2018-10-01)_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-s4-b8",
+      "make": "Audi",
+      "label": "Audi S4 B8",
+      "references": [
+        {
+          "title": "File:2013 Audi S4 (8403322591) (cropped).jpg",
+          "artist": "Sarah Larson from Ann Arbor, MI, USA",
+          "source": "https://commons.wikimedia.org/wiki/File:2013_Audi_S4_(8403322591)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-s5-8t",
+      "make": "Audi",
+      "label": "Audi S5 8T",
+      "references": [
+        {
+          "title": "File:Audi S5 Coupé 3.0 TFSI quattro S tronic Prismasilber.JPG",
+          "artist": "Thomas doerfer",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_S5_Coup%C3%A9_3.0_TFSI_quattro_S_tronic_Prismasilber.JPG",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-s6-c7",
+      "make": "Audi",
+      "label": "Audi S6 C7",
+      "references": [
+        {
+          "title": "File:Audi S6, IAA 2011, Frankfurt am Main (DSC03308).jpg",
+          "artist": "Matti Blume",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_S6,_IAA_2011,_Frankfurt_am_Main_(DSC03308).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-s7-4g",
+      "make": "Audi",
+      "label": "Audi S7 4G",
+      "references": [
+        {
+          "title": "File:Audi s7 4g grey (1).jpg",
+          "artist": "Damian B Oh",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_s7_4g_grey_(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "audi-sq5-8r",
+      "make": "Audi",
+      "label": "Audi SQ5 8R",
+      "references": [
+        {
+          "title": "File:Audi SQ5 TDI (Facelift) – Frontansicht, 27. April 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Audi_SQ5_TDI_(Facelift)_%E2%80%93_Frontansicht,_27._April_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Audi_SQ5_TDI_(Facelift)_%E2%80%93_Frontansicht,_27._April_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-911-997",
+      "make": "Porsche",
+      "label": "Porsche 911 997",
+      "references": [
+        {
+          "title": "File:Porsche 911 Carrera S Coupé (997, Facelift) – Frontansicht, 17. April 2011, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_S_Coup%C3%A9_(997,_Facelift)_%E2%80%93_Frontansicht,_17._April_2011,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_S_Coup%C3%A9_(997,_Facelift)_%E2%80%93_Frontansicht,_17._April_2011,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-911-991",
+      "make": "Porsche",
+      "label": "Porsche 911 991",
+      "references": [
+        {
+          "title": "File:Festival automobile international 2013 - Porsche 911 Carrera - 011.jpg",
+          "artist": "Thesupermat",
+          "source": "https://commons.wikimedia.org/wiki/File:Festival_automobile_international_2013_-_Porsche_911_Carrera_-_011.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-boxster-987",
+      "make": "Porsche",
+      "label": "Porsche Boxster 987",
+      "references": [
+        {
+          "title": "File:2017-08-27 10-07-57 fete-cabriolet-belfort.jpg",
+          "artist": "Thomas Bresson",
+          "source": "https://commons.wikimedia.org/wiki/File:2017-08-27_10-07-57_fete-cabriolet-belfort.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-boxster-981",
+      "make": "Porsche",
+      "label": "Porsche Boxster 981",
+      "references": [
+        {
+          "title": "File:2013 Porsche Boxster -- 2012 NYIAS.JPG",
+          "artist": "IFCAR",
+          "source": "https://commons.wikimedia.org/wiki/File:2013_Porsche_Boxster_--_2012_NYIAS.JPG",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:2013_Porsche_Boxster_--_2012_NYIAS.JPG#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-boxster-982",
+      "make": "Porsche",
+      "label": "Porsche Boxster 982",
+      "references": [
+        {
+          "title": "File:17 Porsche 718 Boxster Base.jpg",
+          "artist": "HJUdall",
+          "source": "https://commons.wikimedia.org/wiki/File:17_Porsche_718_Boxster_Base.jpg",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-cayenne-958",
+      "make": "Porsche",
+      "label": "Porsche Cayenne 958",
+      "references": [
+        {
+          "title": "File:Porsche Cayenne S (92A) – Frontansicht, 10. Oktober 2011, Wülfrath.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_S_(92A)_%E2%80%93_Frontansicht,_10._Oktober_2011,_W%C3%BClfrath.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_S_(92A)_%E2%80%93_Frontansicht,_10._Oktober_2011,_W%C3%BClfrath.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-cayman-987",
+      "make": "Porsche",
+      "label": "Porsche Cayman 987",
+      "references": [
+        {
+          "title": "File:2009 Porsche Cayman S - Flickr - The Car Spy (24).jpg",
+          "artist": "The Car Spy",
+          "source": "https://commons.wikimedia.org/wiki/File:2009_Porsche_Cayman_S_-_Flickr_-_The_Car_Spy_(24).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-cayman-981",
+      "make": "Porsche",
+      "label": "Porsche Cayman 981",
+      "references": [
+        {
+          "title": "File:2014 Porsche Cayman (12494278684).jpg",
+          "artist": "artistmac",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_Porsche_Cayman_(12494278684).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-cayman-982",
+      "make": "Porsche",
+      "label": "Porsche Cayman 982",
+      "references": [
+        {
+          "title": "File:2018 Porsche 718 Cayman S S-A 2.5 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Porsche_718_Cayman_S_S-A_2.5_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-macan-95b",
+      "make": "Porsche",
+      "label": "Porsche Macan 95B",
+      "references": [
+        {
+          "title": "File:2018 Porsche Macan 2.0 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Macan_2.0_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "porsche-panamera-970",
+      "make": "Porsche",
+      "label": "Porsche Panamera 970",
+      "references": [
+        {
+          "title": "File:Porsche Panamera Diesel (970, Facelift) – Frontansicht, 3. März 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_Diesel_(970,_Facelift)_%E2%80%93_Frontansicht,_3._M%C3%A4rz_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_Diesel_(970,_Facelift)_%E2%80%93_Frontansicht,_3._M%C3%A4rz_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-discovery-sport-l550",
+      "make": "Land Rover",
+      "label": "Land Rover Discovery Sport L550",
+      "references": [
+        {
+          "title": "File:Land Rover Discovery Sport HSE Luxury TD4 2016.jpg",
+          "artist": "DeFacto",
+          "source": "https://commons.wikimedia.org/wiki/File:Land_Rover_Discovery_Sport_HSE_Luxury_TD4_2016.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-lr2-l359",
+      "make": "Land Rover",
+      "label": "Land Rover LR2 L359",
+      "references": [
+        {
+          "title": "File:Land Rover Freelander SD4 SE (II, 2. Facelift) – Frontansicht, 29. Mai 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Land_Rover_Freelander_SD4_SE_(II,_2._Facelift)_%E2%80%93_Frontansicht,_29._Mai_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Land_Rover_Freelander_SD4_SE_(II,_2._Facelift)_%E2%80%93_Frontansicht,_29._Mai_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-lr4-l319",
+      "make": "Land Rover",
+      "label": "Land Rover LR4 L319",
+      "references": [
+        {
+          "title": "File:Land Rover Discovery SDV6 HSE (IV) – Frontansicht, 17. Mai 2013, Münster.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Land_Rover_Discovery_SDV6_HSE_(IV)_%E2%80%93_Frontansicht,_17._Mai_2013,_M%C3%BCnster.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Land_Rover_Discovery_SDV6_HSE_(IV)_%E2%80%93_Frontansicht,_17._Mai_2013,_M%C3%BCnster.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-range-rover-evoque-l538",
+      "make": "Land Rover",
+      "label": "Land Rover Range Rover Evoque L538",
+      "references": [
+        {
+          "title": "File:2013 Land Rover Range Rover Evoque Pure 5-Door in Ipanema Sand Metallic, Front Left, 06-22-2023.jpg",
+          "artist": "Elise240SX",
+          "source": "https://commons.wikimedia.org/wiki/File:2013_Land_Rover_Range_Rover_Evoque_Pure_5-Door_in_Ipanema_Sand_Metallic,_Front_Left,_06-22-2023.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-range-rover-sport-l320",
+      "make": "Land Rover",
+      "label": "Land Rover Range Rover Sport L320",
+      "references": [
+        {
+          "title": "File:Range Rover Sport SDV6 SE (Facelift) – Frontansicht, 5. September 2012, Wuppertal.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Range_Rover_Sport_SDV6_SE_(Facelift)_%E2%80%93_Frontansicht,_5._September_2012,_Wuppertal.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Range_Rover_Sport_SDV6_SE_(Facelift)_%E2%80%93_Frontansicht,_5._September_2012,_Wuppertal.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-range-rover-sport-l494",
+      "make": "Land Rover",
+      "label": "Land Rover Range Rover Sport L494",
+      "references": [
+        {
+          "title": "File:Range Rover Sport SDV6 HSE (II) – Frontansicht, 12. Juli 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Range_Rover_Sport_SDV6_HSE_(II)_%E2%80%93_Frontansicht,_12._Juli_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Range_Rover_Sport_SDV6_HSE_(II)_%E2%80%93_Frontansicht,_12._Juli_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "land-rover-range-rover-vogue-l405",
+      "make": "Land Rover",
+      "label": "Land Rover Range Rover Vogue L405",
+      "references": [
+        {
+          "title": "File:2012 Land Rover Range Rover (L405) Vogue SDV8 wagon (2012-10-26) 02.jpg",
+          "artist": "OSX",
+          "source": "https://commons.wikimedia.org/wiki/File:2012_Land_Rover_Range_Rover_(L405)_Vogue_SDV8_wagon_(2012-10-26)_02.jpg",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:2012_Land_Rover_Range_Rover_(L405)_Vogue_SDV8_wagon_(2012-10-26)_02.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-f-pace-x761",
+      "make": "Jaguar",
+      "label": "Jaguar F-Pace X761",
+      "references": [
+        {
+          "title": "File:2017 Jaguar F-Pace Portfolio AWD Diesel Automatic 2.0 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Jaguar_F-Pace_Portfolio_AWD_Diesel_Automatic_2.0_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-f-type-x152",
+      "make": "Jaguar",
+      "label": "Jaguar F-Type X152",
+      "references": [
+        {
+          "title": "File:Jaguar F-Type V8 S Cabriolet – Frontansicht, 29. Mai 2014, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type_V8_S_Cabriolet_%E2%80%93_Frontansicht,_29._Mai_2014,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type_V8_S_Cabriolet_%E2%80%93_Frontansicht,_29._Mai_2014,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-xe-x760",
+      "make": "Jaguar",
+      "label": "Jaguar XE X760",
+      "references": [
+        {
+          "title": "File:Jaguar XE 20t R-Sport – Frontansicht, 21. Februar 2016, Düsseldorf.jpg",
+          "artist": "© M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Jaguar_XE_20t_R-Sport_%E2%80%93_Frontansicht,_21._Februar_2016,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Jaguar_XE_20t_R-Sport_%E2%80%93_Frontansicht,_21._Februar_2016,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-xf-x250",
+      "make": "Jaguar",
+      "label": "Jaguar XF X250",
+      "references": [
+        {
+          "title": "File:Jaguar XF 2.2 D (Facelift) – Frontansicht, 5. Oktober 2013, Münster.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Jaguar_XF_2.2_D_(Facelift)_%E2%80%93_Frontansicht,_5._Oktober_2013,_M%C3%BCnster.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Jaguar_XF_2.2_D_(Facelift)_%E2%80%93_Frontansicht,_5._Oktober_2013,_M%C3%BCnster.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-xfr-x250",
+      "make": "Jaguar",
+      "label": "Jaguar XFR X250",
+      "references": [
+        {
+          "title": "File:2012-Jaguar-XFR-front-studio (5639787012).jpg",
+          "artist": "Jaguar MENA",
+          "source": "https://commons.wikimedia.org/wiki/File:2012-Jaguar-XFR-front-studio_(5639787012).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "jaguar-xfr-s-x250",
+      "make": "Jaguar",
+      "label": "Jaguar XFR-S X250",
+      "references": [
+        {
+          "title": "File:2014 Jaguar XFR-S (8403198583).jpg",
+          "artist": "Sarah Larson from Ann Arbor, MI, USA",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_Jaguar_XFR-S_(8403198583).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mini-convertible-f57",
+      "make": "MINI",
+      "label": "MINI Convertible F57",
+      "references": [
+        {
+          "title": "File:2018 Mini Cooper Convertible 1.5 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mini_Cooper_Convertible_1.5_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mini-cooper-f56",
+      "make": "MINI",
+      "label": "MINI Cooper F56",
+      "references": [
+        {
+          "title": "File:2014 MINI Cooper Hardtop -- NHTSA test 8883 - front.jpg",
+          "artist": "National Highway Traffic Safety Administration",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_MINI_Cooper_Hardtop_--_NHTSA_test_8883_-_front.jpg",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:2014_MINI_Cooper_Hardtop_--_NHTSA_test_8883_-_front.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "mini-cooper-clubman-f54",
+      "make": "MINI",
+      "label": "MINI Cooper Clubman F54",
+      "references": [
+        {
+          "title": "File:2018 Mini Clubman Cooper Automatic 1.5 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Mini_Clubman_Cooper_Automatic_1.5_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "mini-cooper-hardtop-f56",
+      "make": "MINI",
+      "label": "MINI Cooper Hardtop F56",
+      "references": [
+        {
+          "title": "File:2014 MINI Cooper Hardtop -- NHTSA test 8883 - front.jpg",
+          "artist": "National Highway Traffic Safety Administration",
+          "source": "https://commons.wikimedia.org/wiki/File:2014_MINI_Cooper_Hardtop_--_NHTSA_test_8883_-_front.jpg",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:2014_MINI_Cooper_Hardtop_--_NHTSA_test_8883_-_front.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "volvo-s60-p3",
+      "make": "Volvo",
+      "label": "Volvo S60 P3",
+      "references": [
+        {
+          "title": "File:Volvo S60 R-Design (II, Facelift) – Frontansicht, 26. Dezember 2013, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Volvo_S60_R-Design_(II,_Facelift)_%E2%80%93_Frontansicht,_26._Dezember_2013,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Volvo_S60_R-Design_(II,_Facelift)_%E2%80%93_Frontansicht,_26._Dezember_2013,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "volvo-v60-p3",
+      "make": "Volvo",
+      "label": "Volvo V60 P3",
+      "references": [
+        {
+          "title": "File:Volvo V60 D5 Summum (Facelift) – Frontansicht, 12. August 2013, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Volvo_V60_D5_Summum_(Facelift)_%E2%80%93_Frontansicht,_12._August_2013,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Volvo_V60_D5_Summum_(Facelift)_%E2%80%93_Frontansicht,_12._August_2013,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "volvo-xc60-p3",
+      "make": "Volvo",
+      "label": "Volvo XC60 P3",
+      "references": [
+        {
+          "title": "File:Volvo XC60 D5 AWD Summum (Facelift) – Frontansicht, 25. August 2013, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Volvo_XC60_D5_AWD_Summum_(Facelift)_%E2%80%93_Frontansicht,_25._August_2013,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Volvo_XC60_D5_AWD_Summum_(Facelift)_%E2%80%93_Frontansicht,_25._August_2013,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "volvo-xc60-spa",
+      "make": "Volvo",
+      "label": "Volvo XC60 SPA",
+      "references": [
+        {
+          "title": "File:JAIA18 Volvo XC60 T5 AWD Inscription 1.jpg",
+          "artist": "Shirley 501JFW",
+          "source": "https://commons.wikimedia.org/wiki/File:JAIA18_Volvo_XC60_T5_AWD_Inscription_1.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "volvo-xc90-spa",
+      "make": "Volvo",
+      "label": "Volvo XC90 SPA",
+      "references": [
+        {
+          "title": "File:WMC P JAIA17 Volvo XC90 1.jpg",
+          "artist": "Shirley 501JFW",
+          "source": "https://commons.wikimedia.org/wiki/File:WMC_P_JAIA17_Volvo_XC90_1.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-es-xv60",
+      "make": "Lexus",
+      "label": "Lexus ES XV60",
+      "references": [
+        {
+          "title": "File:V09489P001.jpg",
+          "artist": "U.S. National Highway Traffic Safety Administration",
+          "source": "https://commons.wikimedia.org/wiki/File:V09489P001.jpg",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:V09489P001.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-gs-l10",
+      "make": "Lexus",
+      "label": "Lexus GS L10",
+      "references": [
+        {
+          "title": "File:Lexus GS 450h F Sport (IV) – Frontansicht, 17. Juni 2012, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_GS_450h_F_Sport_(IV)_%E2%80%93_Frontansicht,_17._Juni_2012,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Lexus_GS_450h_F_Sport_(IV)_%E2%80%93_Frontansicht,_17._Juni_2012,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-is-xe30",
+      "make": "Lexus",
+      "label": "Lexus IS XE30",
+      "references": [
+        {
+          "title": "File:LEXUS IS300h 2017 JAPAN Front02.jpg",
+          "artist": "Kirakiraouji",
+          "source": "https://commons.wikimedia.org/wiki/File:LEXUS_IS300h_2017_JAPAN_Front02.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-lx-j200",
+      "make": "Lexus",
+      "label": "Lexus LX J200",
+      "references": [
+        {
+          "title": "File:2018 Lexus LX 570 (facelift), front 3.24.23.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Lexus_LX_570_(facelift),_front_3.24.23.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-nx-az10",
+      "make": "Lexus",
+      "label": "Lexus NX AZ10",
+      "references": [
+        {
+          "title": "File:Lexus NX 200t 2015 (18115046615) (cropped).jpg",
+          "artist": "Kārlis Dambrāns from Latvia",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_NX_200t_2015_(18115046615)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-rc-xc10",
+      "make": "Lexus",
+      "label": "Lexus RC XC10",
+      "references": [
+        {
+          "title": "File:15 Lexus RC 350 F Sport.jpg",
+          "artist": "HJUdall",
+          "source": "https://commons.wikimedia.org/wiki/File:15_Lexus_RC_350_F_Sport.jpg",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "asset": "lexus-rx-al20",
+      "make": "Lexus",
+      "label": "Lexus RX AL20",
+      "references": [
+        {
+          "title": "File:2018 Lexus RX350, Front Right, 10-22-2020.jpg",
+          "artist": "SsmIntrigue",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Lexus_RX350,_Front_Right,_10-22-2020.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-fx37-s51",
+      "make": "Infiniti",
+      "label": "Infiniti FX37 S51",
+      "references": [
+        {
+          "title": "File:Infiniti FX37 (15804198734).jpg",
+          "artist": "FotoSleuth",
+          "source": "https://commons.wikimedia.org/wiki/File:Infiniti_FX37_(15804198734).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-jx35-l50",
+      "make": "Infiniti",
+      "label": "Infiniti JX35 L50",
+      "references": [
+        {
+          "title": "File:2013 Infiniti JX35.jpg",
+          "artist": "Tino Rossini",
+          "source": "https://commons.wikimedia.org/wiki/File:2013_Infiniti_JX35.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-q50-v37",
+      "make": "Infiniti",
+      "label": "Infiniti Q50 V37",
+      "references": [
+        {
+          "title": "File:2015 Infiniti Q50 3.7 AWD in Graphite Shadow, Front Left, 05-29-2022.jpg",
+          "artist": "Elise240SX",
+          "source": "https://commons.wikimedia.org/wiki/File:2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow,_Front_Left,_05-29-2022.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-q70-y51",
+      "make": "Infiniti",
+      "label": "Infiniti Q70 Y51",
+      "references": [
+        {
+          "title": "File:2015 Infiniti Q70 Sport Diesel Automatic 2.1 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2015_Infiniti_Q70_Sport_Diesel_Automatic_2.1_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-qx50-j50",
+      "make": "Infiniti",
+      "label": "Infiniti QX50 J50",
+      "references": [
+        {
+          "title": "File:Pre-facelift Infiniti QX50 (front).jpg",
+          "artist": "Self-Proclaimed-Car-Enthusiast",
+          "source": "https://commons.wikimedia.org/wiki/File:Pre-facelift_Infiniti_QX50_(front).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-qx50-j55",
+      "make": "Infiniti",
+      "label": "Infiniti QX50 J55",
+      "references": [
+        {
+          "title": "File:2019 Infiniti QX50 front 5.22.18.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2019_Infiniti_QX50_front_5.22.18.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-qx60-l50",
+      "make": "Infiniti",
+      "label": "Infiniti QX60 L50",
+      "references": [
+        {
+          "title": "File:2017 Infiniti QX60, front 4.7.23.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Infiniti_QX60,_front_4.7.23.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-qx70-s51",
+      "make": "Infiniti",
+      "label": "Infiniti QX70 S51",
+      "references": [
+        {
+          "title": "File:'17 Infiniti QX70.jpg",
+          "artist": "Bull-Doser",
+          "source": "https://commons.wikimedia.org/wiki/File:%2717_Infiniti_QX70.jpg",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/File:%2717_Infiniti_QX70.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "infiniti-qx80-z62",
+      "make": "Infiniti",
+      "label": "Infiniti QX80 Z62",
+      "references": [
+        {
+          "title": "File:2017 Infiniti QX80 5.6L front 6.24.18.jpg",
+          "artist": "Kevauto",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Infiniti_QX80_5.6L_front_6.24.18.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "aston-martin-db11-am5",
+      "make": "Aston Martin",
+      "label": "Aston Martin DB11 AM5",
+      "references": [
+        {
+          "title": "File:2017 Aston Martin DB11 V12 coupé, Lightning Silver, front right.jpg",
+          "artist": "Mr.choppers",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Aston_Martin_DB11_V12_coup%C3%A9,_Lightning_Silver,_front_right.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "aston-martin-dbs-am7",
+      "make": "Aston Martin",
+      "label": "Aston Martin DBS AM7",
+      "references": [
+        {
+          "title": "File:2019 Aston Martin DBS Superleggera V12 Automatic 5.2 Front.jpg",
+          "artist": "Vauxford",
+          "source": "https://commons.wikimedia.org/wiki/File:2019_Aston_Martin_DBS_Superleggera_V12_Automatic_5.2_Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "aston-martin-vantage-am6",
+      "make": "Aston Martin",
+      "label": "Aston Martin Vantage AM6",
+      "references": [
+        {
+          "title": "File:2019 Aston Martin Vantage coupe, front right (Wings-n-Wheels 2023).jpg",
+          "artist": "MercurySable99",
+          "source": "https://commons.wikimedia.org/wiki/File:2019_Aston_Martin_Vantage_coupe,_front_right_(Wings-n-Wheels_2023).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "bentley-continental-ii",
+      "make": "Bentley",
+      "label": "Bentley Continental II",
+      "references": [
+        {
+          "title": "File:Bentley GTSpeed - Mondial de l'Automobile de Paris 2014 - 001.jpg",
+          "artist": "Thesupermat",
+          "source": "https://commons.wikimedia.org/wiki/File:Bentley_GTSpeed_-_Mondial_de_l%27Automobile_de_Paris_2014_-_001.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "asset": "maserati-ghibli-m157",
+      "make": "Maserati",
+      "label": "Maserati Ghibli M157",
+      "references": [
+        {
+          "title": "File:Maserati Ghibli (IV) – Frontansicht, 27. April 2014, Meerbusch.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Maserati_Ghibli_(IV)_%E2%80%93_Frontansicht,_27._April_2014,_Meerbusch.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Maserati_Ghibli_(IV)_%E2%80%93_Frontansicht,_27._April_2014,_Meerbusch.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "cadillac-ats-alpha",
+      "make": "Cadillac",
+      "label": "Cadillac ATS Alpha",
+      "references": [
+        {
+          "title": "File:Cadillac ATS 2.0 Turbo AWD Premium – Frontansicht, 16. Oktober 2015, Düsseldorf.jpg",
+          "artist": "M 93",
+          "source": "https://commons.wikimedia.org/wiki/File:Cadillac_ATS_2.0_Turbo_AWD_Premium_%E2%80%93_Frontansicht,_16._Oktober_2015,_D%C3%BCsseldorf.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Cadillac_ATS_2.0_Turbo_AWD_Premium_%E2%80%93_Frontansicht,_16._Oktober_2015,_D%C3%BCsseldorf.jpg#Licensing"
+        }
+      ]
+    },
+    {
+      "asset": "nissan-armada-y62",
+      "make": "Nissan",
+      "label": "Nissan Armada Y62",
+      "references": [
+        {
+          "title": "File:2017 Nissan Armada Platinum (cropped).jpg",
+          "artist": "Bravosser",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Nissan_Armada_Platinum_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "asset": "nissan-pathfinder-r52",
+      "make": "Nissan",
+      "label": "Nissan Pathfinder R52",
+      "references": [
+        {
+          "title": "File:2013 Nissan Pathfinder 3.5 V6 SV 4WD USDM (52016473872).jpg",
+          "artist": "Rutger van der Maar",
+          "source": "https://commons.wikimedia.org/wiki/File:2013_Nissan_Pathfinder_3.5_V6_SV_4WD_USDM_(52016473872).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    }
+  ]
+}
