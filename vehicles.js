@@ -30,6 +30,7 @@
   const rows = data.makes.flatMap((m) => m.groups.flatMap((g) => g.models.map((r) => ({ ...r, make: m.name, makeId: m.id, group: g.name }))));
   const exceptions = (data.exceptions || []).map((r) => ({ ...r, makeId: data.makes.find((m) => m.name === r.make)?.id }));
   const [Y0, Y1] = data.years;
+  const phone = window.matchMedia('(max-width: 760px)');
 
   let view = 'cards', make = 'all', year = '', query = '';
 
@@ -70,7 +71,7 @@
     const head = `<div class="tl-row tl-head"><div class="tl-name"></div><div class="tl-track">${years.map((y) => `<span class="${+year === y ? 'is-on' : ''}">’${String(y).slice(2)}</span>`).join('')}</div></div>`;
     const families = [];
     list.forEach((r) => { const k = `${r.makeId}|${r.model}`; let f = families.find((x) => x.k === k); if (!f) families.push(f = { k, model: r.model, make: r.make, gens: [] }); f.gens.push(r); });
-    const body = families.map((f) => {
+    const laid = families.map((f) => {
       // Keep gaps blank. Overlapping generation transitions get separate lanes.
       const ends = [];
       const segments = f.gens.flatMap((r) => ranges(r).map((period) => ({ r, ...period })))
@@ -81,13 +82,34 @@
           ends[lane] = period.to;
           return { ...period, lane: lane + 1 };
         });
-      return `
+      return { f, ends, segments };
+    });
+    const dim = (from, to) => year && !(from <= +year && +year <= to);
+    const body = laid.map(({ f, ends, segments }) => `
       <div class="tl-row">
         <div class="tl-name"><img src="${img(f.gens[f.gens.length - 1])}" alt="" loading="lazy"><b>${esc(f.model)}</b></div>
-        <div class="tl-track">${year ? `<span class="tl-yr" style="grid-column:${+year - Y0 + 1};grid-row:1 / ${ends.length + 1}"></span>` : ''}${segments.map(({ r, from, to, lane }) => `<span class="tl-bar${year && !(from <= +year && +year <= to) ? ' is-dim' : ''}" style="grid-column:${from - Y0 + 1} / ${to - Y0 + 2};grid-row:${lane}" title="${esc(`${r.model} ${r.chassis} ${rangeLabel({from,to})}`)}"><b>${esc(r.chassis)}</b><small>${rangeLabel({from,to})}</small></span>`).join('')}</div>
-      </div>`;
+        <div class="tl-track">${year ? `<span class="tl-yr" style="grid-column:${+year - Y0 + 1};grid-row:1 / ${ends.length + 1}"></span>` : ''}${segments.map(({ r, from, to, lane }) => `<span class="tl-bar${dim(from, to) ? ' is-dim' : ''}" style="grid-column:${from - Y0 + 1} / ${to - Y0 + 2};grid-row:${lane}" title="${esc(`${r.model} ${r.chassis} ${rangeLabel({from,to})}`)}"><b>${esc(r.chassis)}</b><small>${rangeLabel({from,to})}</small></span>`).join('')}</div>
+      </div>`).join('');
+
+    // Phones: one card per model, one line per generation, with a full-width mini timeline.
+    const tick = (y) => (y === Y0 || y === Y1 || y % 5 === 0 || +year === y);
+    const axis = `<div class="tlm-axis" aria-hidden="true">${years.map((y) => `<span class="${+year === y ? 'is-on' : ''}">${tick(y) ? `’${String(y).slice(2)}` : ''}</span>`).join('')}</div>`;
+    const mobile = laid.map(({ f, segments }) => {
+      const live = !year || segments.some(({ from, to }) => !dim(from, to));
+      return `
+      <article class="tlm-card${live ? '' : ' is-dim'}">
+        <header class="tlm-head"><img src="${img(f.gens[f.gens.length - 1])}" alt="" loading="lazy"><div><b>${esc(f.model)}</b>${make === 'all' ? `<small>${esc(f.make)}</small>` : ''}</div></header>
+        <ul class="tlm-gens">${segments.map(({ r, from, to }) => `
+          <li class="tlm-gen${dim(from, to) ? ' is-dim' : ''}">
+            <div class="tlm-label"><span class="fit-chip">${esc(r.chassis)}</span><span class="tlm-years">${rangeLabel({ from, to })}</span></div>
+            <div class="tlm-track" aria-hidden="true">${year ? `<i class="tlm-yr" style="grid-column:${+year - Y0 + 1}"></i>` : ''}<i class="tlm-bar" style="grid-column:${from - Y0 + 1} / ${to - Y0 + 2}"></i></div>
+          </li>`).join('')}
+        </ul>
+      </article>`;
     }).join('');
+
     return `<div class="fit-timeline" style="--tl-years:${years.length}">${head}${body}</div>
+      <div class="tlm" style="--tl-years:${years.length}">${axis}${mobile}</div>
       <p class="tl-note">Supplier screening years, split by generation. Confirm fit by VIN or a dashboard photo.</p>`;
   };
 
@@ -102,7 +124,7 @@
     const target = $('[data-fit-exceptions]');
     if (!target) return;
     target.hidden = !held.length;
-    target.innerHTML = held.length ? `<details class="fit-verification"${year ? ' open' : ''}>
+    target.innerHTML = held.length ? `<details class="fit-verification"${year && !phone.matches ? ' open' : ''}>
       <summary>Some supplier-listed years need an extra check</summary>
       <p>These years are not confirmed generation matches. Send the VIN and a dashboard photo before quoting an adapter.</p>
       <ul>${held.map((r) => `<li><strong>${esc(r.make)} ${esc(r.model)} · ${span(r)}</strong><br>${esc(r.reason)}</li>`).join('')}</ul>
