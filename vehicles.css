@@ -31,7 +31,8 @@
 .fit-verdict.is-ask{border-left:4px solid var(--rf-red)}
 .fit-verdict strong{color:#F4F2EE}
 .fit-verdict a{color:#F4F2EE;text-decoration-color:var(--rf-red)}
-.fit-tools :is(button,input,select):focus-visible,.fit-make+.fit-make{margin-top:64px}
+.fit-tools :is(button,input,select):focus-visible{outline-color:var(--rf-on-dark)}
+.fit-make+.fit-make{margin-top:64px}
 .fit-make-head{display:flex;align-items:center;gap:14px;padding-bottom:16px;border-bottom:1px solid var(--rf-dark-line)}
 .fit-make-head img{width:40px;height:40px;object-fit:contain}
 .fit-make-head h2{font-size:32px!important;letter-spacing:-1px!important;color:#F4F2EE;margin:0}
@@ -147,3 +148,6 @@
   .fit-table .fit-chip{font-size:11px;padding:3px 6px}
 }
 .visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Keep make filters comfortable to tap without changing the desktop density. */
+@media (any-pointer:coarse){.fit-makes button{min-height:44px}}
