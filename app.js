@@ -222,6 +222,13 @@ document.querySelectorAll('[data-comparison]').forEach(comparison => {
   const panes = [...comparison.querySelectorAll('.comparison-pane')];
   const buttons = [...comparison.querySelectorAll('[data-compare]')];
   let selected = 1;
+  // Prepare both photos near the viewport, including the hidden mobile pane.
+  const preparePhotos = new IntersectionObserver(entries => {
+    if (!entries.some(entry => entry.isIntersecting)) return;
+    comparison.querySelectorAll('img').forEach(image => { image.loading = 'eager'; });
+    preparePhotos.disconnect();
+  }, { rootMargin: '400px' });
+  preparePhotos.observe(comparison);
   function updateComparison() {
     panes.forEach((pane, i) => {
       pane.hidden = mobile.matches && selected !== i;
@@ -243,9 +250,12 @@ document.querySelectorAll('[data-installation-gallery]').forEach(gallery => {
   const status = gallery.querySelector('[data-installation-status]');
   const navigation = gallery.querySelector('.installation-nav');
   const statusRow = status.closest('.installation-status');
-  const names = ['2009 BMW X5', '2013 BMW X5', '2015 BMW 328i GT'];
+  const names = panels.map(panel => panel.dataset.installationName || panel.querySelector('h3').childNodes[0].textContent.trim());
   let selected = 0, frame;
   gallery.classList.add('gallery-ready');
+  function fitTrackHeight() {
+    track.style.height = mobile.matches ? panels[selected].offsetHeight + 'px' : '';
+  }
   function render() {
     panels.forEach((panel, i) => {
       const inactive = selected !== i;
@@ -256,6 +266,7 @@ document.querySelectorAll('[data-installation-gallery]').forEach(gallery => {
     });
     buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === selected)));
     status.textContent = (selected + 1) + ' / ' + panels.length + ' · ' + names[selected];
+    fitTrackHeight();
   }
   function scrollToSelected(behavior = 'instant') {
     if (mobile.matches) track.scrollTo({ left: panels[selected].offsetLeft - panels[0].offsetLeft, behavior });
@@ -290,7 +301,16 @@ document.querySelectorAll('[data-installation-gallery]').forEach(gallery => {
     if (index >= 0) { selected = index; render(); scrollToSelected(); }
   }
   window.addEventListener('hashchange', followAnchor);
-  document.querySelectorAll('a[href="#screen-upgrade"]').forEach(link => link.addEventListener('click', () => { selected = 0; render(); scrollToSelected(); }));
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    const index = panels.findIndex(panel => '#' + panel.id === link.getAttribute('href'));
+    if (index >= 0) link.addEventListener('click', () => select(index));
+  });
+  const panelResize = new ResizeObserver(fitTrackHeight);
+  panels.forEach(panel => panelResize.observe(panel));
+  gallery.querySelectorAll('details').forEach(details => details.addEventListener('toggle', () => {
+    if (!details.open) details.querySelectorAll('video').forEach(video => video.pause());
+    fitTrackHeight();
+  }));
   gallery.querySelectorAll('video').forEach(video => {
     // Crop only the poster. Playback always reveals the complete original frame.
     video.addEventListener('play', () => { video.dataset.started = 'true'; });
