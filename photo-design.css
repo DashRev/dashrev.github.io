@@ -73,8 +73,8 @@ p { line-height: 1.65; }
 .section-head > p { max-width: 390px; color: var(--muted); font-size: 15px; }
 .upgrade-options { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 .upgrade-option { min-width: 0; background: #f5f8fa; overflow: hidden; border-radius: 5px; }
-.upgrade-option > img { display: block; width: 100%; height: 260px; object-fit: cover; object-position: 50% 0; }
-.upgrade-option > img.replacement-photo { object-position: 50% 45%; }
+.upgrade-option > img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 0; }
+.upgrade-option > img.replacement-photo { object-position: 50% 50%; }
 .option-copy { padding: 25px; }
 .option-copy > p { font-size: 15px; color: var(--muted); margin-top: 10px; max-width: 460px; }
 .option-bottom { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-top: 17px; }
@@ -249,7 +249,7 @@ details p { padding-top: 13px; font-size: 14px; color: var(--muted); }
   .section-head { display: block; margin-bottom: 23px; }
   .section-head > p { margin-top: 12px; font-size: 14px; }
   .upgrade-options { grid-template-columns: minmax(0,1fr); gap: 24px; }
-  .upgrade-option > img { height: 190px; }
+  .upgrade-option > img { height: auto; }
   .option-copy { padding: 19px; }
   .option-copy > p { font-size: 14px; line-height: 1.55; margin-top: 8px; }
   .option-bottom { gap: 10px; margin-top: 14px; }
