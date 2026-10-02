@@ -74,7 +74,7 @@ p { line-height: 1.65; }
 .upgrade-options { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 .upgrade-option { min-width: 0; background: #f5f8fa; overflow: hidden; border-radius: 5px; }
 .upgrade-option > img { display: block; width: 100%; height: 260px; object-fit: cover; object-position: 50% 0; }
-.upgrade-option > img.replacement-photo { object-position: 50% 22%; }
+.upgrade-option > img.replacement-photo { object-position: 50% 0; }
 .option-copy { padding: 25px; }
 .option-copy > p { font-size: 15px; color: var(--muted); margin-top: 10px; max-width: 460px; }
 .option-bottom { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-top: 17px; }
