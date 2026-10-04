@@ -6,7 +6,7 @@
 .ig-intro { margin-bottom: 28px; }
 
 /* Picker: every install visible at a glance, above the card. */
-.ig-picker { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; scroll-margin-top: 96px; }
+.ig-picker { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin-bottom: 20px; scroll-margin-top: 96px; }
 .ig-picker button {
   display: flex; align-items: center; gap: 12px; min-width: 0; padding: 8px 12px 8px 8px;
   background: var(--rf-graphite-3); color: var(--rf-on-dark); border: 1px solid var(--rf-dark-line); border-radius: 6px;
@@ -19,6 +19,7 @@
 .ig-picker strong, .ig-picker small { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ig-picker strong { font-size: 14px; line-height: 1.35; }
 .ig-picker small { margin-top: 3px; font-size: 12px; color: var(--rf-on-dark-soft); }
+@media (min-width: 1081px) { .ig-picker button { gap: 10px; padding-right: 8px; } .ig-picker img { width: 52px; height: 40px; } .ig-picker strong { font-size: 13px; } }
 
 /* Card: story on the left, the portrait video in its own column on the right. */
 .ig-card {
