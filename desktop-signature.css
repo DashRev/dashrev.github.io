@@ -29,7 +29,7 @@
   .nav-cta:hover { border-color: var(--signature-blue); }
 
   /* The same quiet blue illumination and hairline rhythm as the preferred
-     Northline reference: a detailed setting, not a competing graphic. */
+     Design reference: a detailed setting, not a competing graphic. */
   .product-hero {
     position: relative;
     isolation: isolate;

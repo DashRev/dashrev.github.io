@@ -1,7 +1,7 @@
 'use strict';
 // Editable local catalog snapshot. No browser requests to the supplier.
 // See VEHICLE-CATALOG.md for scope, normalization and source limitations.
-window.NORTHLINE_VEHICLES = {
+window.DASHREV_VEHICLES = {
   "source": "https://www.gtacarkits.com/",
   "carplaySource": "https://www.gtacarkits.com/product-category/carplay-androidauto-for-original-car-stereo/",
   "checked": "2026-09-13",

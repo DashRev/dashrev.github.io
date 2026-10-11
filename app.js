@@ -1,7 +1,7 @@
 'use strict';
 // Shared editable business details. No analytics, network form submission or storage.
-const NORTHLINE = { phone: '+16199537761' };
-const VEHICLE_CATALOG = window.NORTHLINE_VEHICLES?.makes || [];
+const DASHREV = { phone: '+16199537761' };
+const VEHICLE_CATALOG = window.DASHREV_VEHICLES?.makes || [];
 const OTHER_VEHICLE = 'Other / not sure';
 function fillMakes(select) {
   select.replaceChildren(new Option('Choose a brand', ''));
@@ -48,8 +48,8 @@ function vehicleDescription(container) {
 }
 function setContactLinks(container, message) {
   const isApple = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  container.querySelector('[data-sms]').href = `sms:${NORTHLINE.phone}${isApple ? '&' : '?'}body=${encodeURIComponent(message)}`;
-  container.querySelector('[data-whatsapp]').href = `https://wa.me/${NORTHLINE.phone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
+  container.querySelector('[data-sms]').href = `sms:${DASHREV.phone}${isApple ? '&' : '?'}body=${encodeURIComponent(message)}`;
+  container.querySelector('[data-whatsapp]').href = `https://wa.me/${DASHREV.phone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
   container.dataset.message = message;
 }
 async function copyMessage(message, status) {
@@ -103,7 +103,7 @@ if (ownerForm) {
     const request = available
       ? 'Your checker shows a listed CarPlay option. Please confirm my factory setup and installed price. I will attach a photo of the main menu and center console.'
       : 'Your checker recommends a manual check. Could you check other CarPlay kits or screen upgrades? I will attach a photo of the main menu and center console.';
-    setContactLinks(result, `Hi Dash Rev! My vehicle is ${vehicle}. ${request} My installation location is: `);
+    setContactLinks(result, `Hi DashRev! My vehicle is ${vehicle}. ${request} My installation location is: `);
     document.querySelector('#owner-message').value = result.dataset.message;
     document.querySelector('[data-owner-copy-status]').textContent = '';
     showResult(ownerForm, result, heading);
@@ -169,7 +169,7 @@ if (fleetForm) {
     event.preventDefault();
     for (const input of fleetForm.querySelectorAll('input[type=text],input:not([type])')) { if (input.required && !input.disabled && !input.value.trim()) { input.setCustomValidity('Please enter a value.'); input.reportValidity(); return; } }
     const vehicles = [...rows.children].map((row, i) => `${i + 1}. ${vehicleDescription(row)}`);
-    const message = `Hi Dash Rev! I'm a host / fleet owner interested in CarPlay and screen upgrades.\n\nVehicles:\n${vehicles.join('\n')}\n\nBased in: ${fleetForm.elements.location.value.trim()}\n\nPlease review the right setup and quote each vehicle. I'd like to discuss installation between bookings. I'll attach labeled dashboard photos.`;
+    const message = `Hi DashRev! I'm a host / fleet owner interested in CarPlay and screen upgrades.\n\nVehicles:\n${vehicles.join('\n')}\n\nBased in: ${fleetForm.elements.location.value.trim()}\n\nPlease review the right setup and quote each vehicle. I'd like to discuss installation between bookings. I'll attach labeled dashboard photos.`;
     document.querySelector('#fleet-message').value = message; setContactLinks(result, message);
     const heading = document.querySelector('#fleet-result-title'); heading.textContent = `${vehicles.length} vehicle${vehicles.length === 1 ? '' : 's'}. Let’s make a plan.`;
     document.querySelector('#copy-status').textContent = '';

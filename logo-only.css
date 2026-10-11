@@ -1,6 +1,5 @@
 /* Logo placement only. No palette, type, navigation or content overrides. */
-.wordmark.dashrev-logo-only { position: relative; }
-.dashrev-logo-only > .logo-footprint { visibility: hidden; }
+.wordmark.dashrev-logo-only { position: relative; width: 130.4px; height: 40px; }
 .dashrev-logo-only > .dashrev-mark {
   position: absolute;
   left: 0;
@@ -23,6 +22,7 @@
 @media (max-width: 359px) {
   .header .dashrev-logo-only > .dashrev-mark--compact { width: 145px; height: 26px; }
 }
-/* Invisible sizing text for the logo box, kept in CSS so it stays out of page text and search results */
-.dashrev-logo-only > span.logo-footprint::before { content: "NORTHLINE"; }
-.dashrev-logo-only > small.logo-footprint::before { content: "RETROFIT"; }
+/* Logo box sizes, matching the layout the site has always had at each breakpoint */
+@media (min-width: 1101px) { .header .wordmark.dashrev-logo-only { width: 142.4px; height: 42px; } }
+@media (max-width: 760px) { .wordmark.dashrev-logo-only { width: 118.5px; height: 36px; } }
+@media (max-width: 359px) { .wordmark.dashrev-logo-only { width: 106.5px; height: 34px; } }

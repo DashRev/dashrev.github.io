@@ -1,6 +1,6 @@
-# Dash Rev
+# DashRev
 
-Customer website for Dash Rev — Car Tech Solutions.
+Customer website for DashRev — Car Tech Solutions.
 
 https://dashrev.github.io/
 
