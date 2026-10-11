@@ -23,3 +23,6 @@
 @media (max-width: 359px) {
   .header .dashrev-logo-only > .dashrev-mark--compact { width: 145px; height: 26px; }
 }
+/* Invisible sizing text for the logo box, kept in CSS so it stays out of page text and search results */
+.dashrev-logo-only > span.logo-footprint::before { content: "NORTHLINE"; }
+.dashrev-logo-only > small.logo-footprint::before { content: "RETROFIT"; }
