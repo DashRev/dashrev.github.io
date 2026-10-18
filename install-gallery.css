@@ -145,3 +145,10 @@
   .ig-video video { width: min(100%, 270px); margin-inline: auto; }
   .ig-video figcaption { text-align: center; }
 }
+
+/* Hosts page: guest-guide callout under the gallery, on the dark background */
+.install-gallery .guest-guide-callout { border-top-color: var(--rf-dark-line); }
+.install-gallery .guest-guide-callout h3 { color: #F4F2EE; }
+.install-gallery .guest-guide-callout p { color: var(--rf-on-dark-soft); }
+.install-gallery .guest-guide-callout .btn, .install-gallery .guest-guide-callout .btn.secondary { background: transparent; color: #F4F2EE; border: 1px solid #626870; }
+.install-gallery .guest-guide-callout .btn:hover { border-color: var(--rf-red); }
