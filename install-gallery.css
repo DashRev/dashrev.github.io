@@ -22,6 +22,30 @@
 @media (min-width: 1081px) { .ig-picker button { gap: 10px; padding-right: 8px; } .ig-picker img { width: 52px; height: 40px; } .ig-picker strong { font-size: 13px; } }
 /* Narrow desktops: let the short label wrap instead of cutting off "Kept factory screen". */
 @media (min-width: 1081px) and (max-width: 1279px) { .ig-picker small { white-space: normal; line-height: 1.25; } }
+/* Author display:flex beats the hidden attribute, so filtered-out chips need this. */
+.ig-picker button[hidden], .ig-next[hidden] { display: none; }
+
+/* Filters (built by install-gallery.js): narrow the picker by make and upgrade. Same chip style as the vehicles page. */
+.ig-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; margin-bottom: 14px; }
+.ig-filter { display: flex; gap: 8px; min-width: 0; overflow-x: auto; scrollbar-width: none; padding: 2px; }
+.ig-filter::-webkit-scrollbar { display: none; }
+.ig-filter button {
+  flex-shrink: 0; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--rf-dark-line);
+  background: transparent; color: #D5D8DC; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.ig-filter button span { margin-left: 2px; font-weight: 400; color: var(--rf-on-dark-soft); }
+.ig-filter button:hover:not(:disabled) { border-color: #4A525D; }
+.ig-filter button[aria-pressed="true"] { background: #2A3038; border-color: #626870; color: #F4F2EE; }
+.ig-filter button:disabled { opacity: .4; cursor: default; }
+.ig-filter-status { margin: 0 0 0 auto; font-size: 13px; color: var(--rf-on-dark-soft); }
+@media (any-pointer: coarse) { .ig-filter button { min-height: 44px; } }
+/* Phones: stack the rows and wrap the buttons. A wrapping column sized every row to its widest one,
+   which pushed the page sideways, and with the scrollbar hidden a scrolling row looked cut off. */
+@media (max-width: 760px) {
+  .ig-filters { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 8px; }
+  .ig-filter { flex-wrap: wrap; overflow: visible; }
+  .ig-filter-status { margin-left: 0; }
+}
 
 /* Card: story on the left, the portrait video in its own column on the right.
    Both columns stretch to the same height; the action row sits on the card's bottom line. */
