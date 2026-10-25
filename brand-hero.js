@@ -12,31 +12,32 @@
   // The static HTML remains the BMW/no-JavaScript fallback and source of truth.
   const bmw = {
     src: image.getAttribute('src'),
+    srcset: image.getAttribute('srcset'),
     alt: image.alt,
     title: title.textContent,
     caption: caption.textContent
   };
   const brands = new Map([
     ['mercedes', {
-      src: 'assets/mercedes-carplay-reference.png',
+      src: 'assets/brand-hero/mercedes.webp',
       alt: 'Mercedes-Benz dashboard showing Apple CarPlay on its screen',
       title: 'CarPlay & Android Auto for your Mercedes.',
       caption: 'Example shown: CarPlay in a Mercedes-Benz dashboard.'
     }],
     ['audi', {
-      src: 'assets/brand-hero/audi.jpg',
+      src: 'assets/brand-hero/audi.webp',
       alt: 'Audi dashboard showing Apple CarPlay on its screen',
       title: 'CarPlay & Android Auto for your Audi.',
       caption: 'Example shown: CarPlay in an Audi dashboard.'
     }],
     ['land-rover', {
-      src: 'assets/brand-hero/land-rover.png',
+      src: 'assets/brand-hero/land-rover.webp',
       alt: 'Land Rover dashboard showing Apple CarPlay on its screen',
       title: 'CarPlay & Android Auto for your Land Rover.',
       caption: 'Example shown: CarPlay in a Land Rover dashboard.'
     }],
     ['volvo', {
-      src: 'assets/brand-hero/volvo.png',
+      src: 'assets/brand-hero/volvo.webp',
       alt: 'Volvo dashboard showing Apple CarPlay on its portrait screen',
       title: 'CarPlay & Android Auto for your Volvo.',
       caption: 'Example shown: CarPlay in a Volvo dashboard.'
@@ -46,6 +47,8 @@
   const selected = brands.get(brand);
 
   function apply(data, key, state) {
+    // The BMW photo has a srcset; brand photos are single files, so drop it or it would win over src.
+    if (data.srcset) image.setAttribute('srcset', data.srcset); else image.removeAttribute('srcset');
     if (image.getAttribute('src') !== data.src) image.setAttribute('src', data.src);
     image.alt = data.alt;
     title.textContent = data.title;

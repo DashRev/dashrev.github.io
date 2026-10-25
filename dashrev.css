@@ -1,8 +1,8 @@
 /* Isolated brand application. The production stylesheets remain byte-identical. */
-@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
-@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Bold.ttf') format('truetype');font-weight:700 900;font-style:normal;font-display:swap}
-@font-face{font-family:DashRevDisplay;src:url('brand/fonts/Archivo-Expanded-ExtraBold.ttf') format('truetype');font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Regular.woff2') format('woff2'),url('brand/fonts/Archivo-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-SemiBold.woff2') format('woff2'),url('brand/fonts/Archivo-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevBody;src:url('brand/fonts/Archivo-Bold.woff2') format('woff2'),url('brand/fonts/Archivo-Bold.ttf') format('truetype');font-weight:700 900;font-style:normal;font-display:swap}
+@font-face{font-family:DashRevDisplay;src:url('brand/fonts/Archivo-Expanded-ExtraBold.woff2') format('woff2'),url('brand/fonts/Archivo-Expanded-ExtraBold.ttf') format('truetype');font-weight:800;font-style:normal;font-display:swap}
 :root{--ink:#0E1013;--navy:#0E1013;--blue:#C51018;--bright:#F4F2EE;--paper:#EBE9E5;--muted:#4A4F57;--line:#D5D2CE;--font:DashRevBody,Arial,Helvetica,sans-serif;--dr-red:#E3121B;--dr-bone:#F4F2EE;--dr-steel:#2A3038;--signature-midnight:#0E1013;--signature-frame:#1B1E23;--signature-blue:#F4F2EE;--signature-action:#C51018;--signature-steel:#B7BBC1;--signature-rule:#B7BBC12B}
 body{background:var(--dr-bone)}
 .header{background:#0E1013F7;border-bottom-color:#ffffff1f;color:var(--dr-bone)}
