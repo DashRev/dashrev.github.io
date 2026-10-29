@@ -2,7 +2,7 @@
 
 Customer website for DashRev — Car Tech Solutions.
 
-https://dashrev.github.io/
+https://dashrev.net/
 
 Static HTML, CSS and JavaScript. GitHub Pages publishes the main branch root; no build step. The approved v3 design, customer copy, photographs and pricing are preserved. Brand-specific card links use ?brand=bmw, mercedes, audi, land-rover or volvo. Unknown brands or failed images fall back to BMW.
 

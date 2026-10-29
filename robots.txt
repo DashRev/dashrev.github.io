@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dashrev.github.io/sitemap.xml
+Sitemap: https://dashrev.net/sitemap.xml
