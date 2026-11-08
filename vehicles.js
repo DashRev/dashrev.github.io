@@ -108,7 +108,7 @@
 
     return `<div class="fit-timeline" style="--tl-years:${years.length}">${head}${body}</div>
       <div class="tlm" style="--tl-years:${years.length}">${axis}${mobile}</div>
-      <p class="tl-note">Supplier screening years, split by generation. Confirm fit by VIN or a dashboard photo.</p>`;
+      <p class="tl-note">Model years by generation. Text us the VIN for an exact match.</p>`;
   };
 
   const table = (list) => `<table class="fit-table"><thead><tr><th scope="col"><span class="visually-hidden">Picture</span></th><th scope="col">Model</th><th scope="col">Chassis</th><th scope="col">Years</th><th scope="col">Body</th></tr></thead><tbody>${
@@ -123,10 +123,10 @@
     if (list.length) {
       const names = list.slice(0, 3).map((r) => `${r.make} ${r.model} ${r.chassis} (${span(r)})`).join(', ');
       v.className = 'fit-verdict is-yes';
-      v.innerHTML = `<strong>${list.length === 1 ? 'On the list' : `${list.length} matches`}</strong> for ${esc(label)}: ${esc(names)}${list.length > 3 ? '…' : ''}. Confirm the screen and head unit before quoting.`;
+      v.innerHTML = `<strong>${list.length === 1 ? 'On the list' : `${list.length} matches`}</strong> for ${esc(label)}: ${esc(names)}${list.length > 3 ? '…' : ''}. Text us a photo of the screen for your exact price.`;
     } else {
       v.className = 'fit-verdict is-ask';
-      v.innerHTML = `<strong>Not on this list</strong> for ${esc(label)}. That doesn’t rule it out: <a href="sms:+16199537761">text us the VIN or a dashboard photo</a>.`;
+      v.innerHTML = `<strong>Not on this list</strong> for ${esc(label)}. We fit plenty of cars that aren’t listed. <a href="sms:+16199537761">Text us the VIN or a dashboard photo</a>.`;
     }
   };
 
@@ -134,7 +134,7 @@
     const list = rows.filter(matches);
     const tl = rows.filter((r) => (make === 'all' || r.makeId === make) && (!query || `${r.model} ${r.chassis} ${r.variants} ${r.make}`.toLowerCase().includes(query)));
     root.innerHTML = (view === 'timeline' ? tl.length : list.length) ? (view === 'cards' ? cards(list) : view === 'timeline' ? timeline(tl) : table(list))
-      : '<p class="fit-empty">Nothing in this list matches. That doesn’t mean we can’t fit it. Text us the model and a dashboard photo.</p>';
+      : '<p class="fit-empty">Nothing here matches yet. We fit plenty of cars that aren’t listed, so text us the model and a dashboard photo.</p>';
     verdict(list);
     document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
     document.querySelectorAll('[data-make]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.make === make)));
@@ -170,10 +170,9 @@
   if (data.makes.some((m) => m.id === p.get('make'))) make = p.get('make');
   if (p.get('q')) { query = p.get('q').toLowerCase(); const s = $('[data-fit-search]'); if (s) s.value = p.get('q'); }
 
-  const share = $('[data-fit-share]');
-  share?.addEventListener('click', async () => {
+  document.querySelectorAll('[data-fit-share], [data-fit-share-hero]').forEach((share) => share.addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(location.href.split('#')[0]); share.textContent = 'Link copied'; } catch { share.textContent = location.href; }
-  });
+  }));
   const makeCount = $('[data-fit-stat-makes]'), modelCount = $('[data-fit-stat-models]');
   if (makeCount) makeCount.textContent = data.makes.length;
   if (modelCount) modelCount.textContent = new Set(rows.map((r) => `${r.make}|${r.model}`)).size;

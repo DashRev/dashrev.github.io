@@ -69,7 +69,7 @@ function showResult(form, result, heading) {
   if (mobileButton) {
     if (!mobileButton.dataset.originalHref) { mobileButton.dataset.originalHref = mobileButton.getAttribute('href'); mobileButton.dataset.originalLabel = mobileButton.textContent; }
     mobileButton.href = result.querySelector('[data-sms]').href;
-    mobileButton.textContent = form.id === 'fleet-form' ? 'Text my vehicle list ↗' : result.dataset.availability === 'yes' ? 'Confirm my vehicle ↗' : 'Ask about options ↗';
+    mobileButton.textContent = form.id === 'fleet-form' ? 'Text my vehicle list ↗' : result.dataset.availability === 'yes' ? 'Text us for my price' : 'Text us about my car';
   }
 }
 function restoreForm(form, result) {
@@ -94,12 +94,12 @@ if (ownerForm) {
     const available = !manual && checkVehicleAvailability(data.get('make'), model, data.get('year'));
     const heading = document.querySelector('#owner-result-title'); heading.textContent = vehicle;
     result.dataset.availability = available ? 'yes' : 'no';
-    document.querySelector('#owner-verdict').textContent = available ? 'Yes — compatible*' : 'Needs a manual check';
+    document.querySelector('#owner-verdict').textContent = available ? 'Yes, CarPlay kits are available for your car.' : 'Let’s take a closer look.';
     document.querySelector('#owner-verdict-note').textContent = available
-      ? '*A CarPlay kit is listed for this model and year. Photo confirmation recommended to verify your factory system and installed price.'
-      : 'Let’s review your vehicle individually. Send a photo of the main menu and center console so we can check available kits or screen upgrades.';
-    result.querySelector('[data-sms]').textContent = available ? 'Confirm via text ↗' : 'Ask via text ↗';
-    result.querySelector('[data-whatsapp]').textContent = available ? 'Confirm via WhatsApp ↗' : 'Ask via WhatsApp ↗';
+      ? 'Send us a photo of your screen and we’ll reply with the right kit and your exact price.'
+      : 'Send us a photo of your main menu and center console, and we’ll tell you which CarPlay kit or screen fits.';
+    result.querySelector('[data-sms]').textContent = 'Send via text';
+    result.querySelector('[data-whatsapp]').textContent = 'Send via WhatsApp';
     const request = available
       ? 'Your checker shows a listed CarPlay option. Please confirm my factory setup and installed price. I will attach a photo of the main menu and center console.'
       : 'Your checker recommends a manual check. Could you check other CarPlay kits or screen upgrades? I will attach a photo of the main menu and center console.';
