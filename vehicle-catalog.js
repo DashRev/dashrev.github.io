@@ -2988,6 +2988,7 @@ window.DASHREV_VEHICLES = {
             "Volkswagen / Touareg"
           ],
           "catalogYears": [
+            2012,
             2010,
             2009,
             2008,
@@ -2998,7 +2999,9 @@ window.DASHREV_VEHICLES = {
             2003,
             2002
           ],
-          "carplayYears": []
+          "carplayYears": [
+            2012
+          ]
         }
       ]
     },
